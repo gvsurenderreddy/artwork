@@ -1,0 +1,14 @@
+Source: qvd-desktop-artwork
+Section: xfce
+Priority: optional
+Maintainer: The QVD <theqvd@qindel.com>
+Uploaders: Nicolas Arenas <nicolas.arenas@qindel.com>
+Build-Depends: autotools-dev, debhelper (>= 7)
+Standards-Version: 3.9.2
+Homepage: http://theqvd.com
+Vcs-Git: https://github.com/theqvd/artwork.git
+
+Package: qvd-desktop-artwork
+Architecture: all
+Depends: ${misc:Depends}
+Description: Artwork for the QVD desktop
