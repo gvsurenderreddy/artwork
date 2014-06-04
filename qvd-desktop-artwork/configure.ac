@@ -3,6 +3,8 @@
 
 AC_PREREQ([2.69])
 AC_INIT([qvd-desktop-artwork], [0.01], [qvd@qindel.com])
+AC_CONFIG_FILES([Makefile wallpapers/Makefile desktop/Makefile])
+
 
 # Checks for programs.
 
